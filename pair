@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main ()
+{
+    int x;
+    printf("veuillez entrer le chiffre: \n");
+    scanf("%d",&x);
+    if (x%2==1)
+       printf("le chiffre est impaire %d",x);
+    else 
+    printf("le chiffre est paire %d",x);
+    return 0;
+}
